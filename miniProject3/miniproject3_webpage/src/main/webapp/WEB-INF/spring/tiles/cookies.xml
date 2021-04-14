@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE  tiles-definitions PUBLIC 
+    "-//Aapche Software Foundation//DTD Tiles Configuration 2.0//EN" 
+    "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="main" template="/WEB-INF/views/template/template.jsp"> 
+        <put-attribute name="header" value="/WEB-INF/views/template/top.jsp" /> 
+    </definition> 
+    <definition name="/home" extends="main">
+       <put-attribute name="title" value="🍪 쿠키런 킹덤 ⚔"></put-attribute>
+       <put-attribute name="body"
+               value="/WEB-INF/views/home.jsp" />
+   </definition>
+   
+   <definition name="/cookies/create" extends="main">
+      <put-attribute name="title" value="🍪 쿠키 등록" />
+      <put-attribute name="body" value="/WEB-INF/views/cookies/createForm.jsp" />
+   </definition>
+   <definition name="/cookies/read" extends="main">
+      <put-attribute name="title" value="🍪 쿠키 정보" />
+      <put-attribute name="body" value="/WEB-INF/views/cookies/read.jsp" />
+   </definition>
+   <definition name="/cookies/update" extends="main">
+      <put-attribute name="title" value="🍪 정보 수정" />
+      <put-attribute name="body" value="/WEB-INF/views/cookies/updateForm.jsp" />
+   </definition>
+   <definition name="/cookies/list" extends="main">
+      <put-attribute name="title" value="🍪 쿠키 목록" />
+      <put-attribute name="body" value="/WEB-INF/views/cookies/list.jsp" />
+   </definition>
+   <definition name="/cookies/deleteAjax" extends="main"> 
+        <put-attribute name="title" value="🍪 쿠키 삭제" ></put-attribute> 
+        <put-attribute name="body" value="/WEB-INF/views/cookies/deleteAjax.jsp" /> 
+    </definition>
+</tiles-definitions>
