@@ -1,4 +1,4 @@
-# 자바를 활용한 미니 프로젝트 1
+# 자바를 활용한 미니 프로젝트
 
 > 기능 및 설명
 - player 생성
@@ -12,7 +12,7 @@
 
 <hr>
 
-# 자바와 DB를 활용한 미니 프로젝트 2
+# 자바와 DB를 활용한 미니 프로젝트
 
 > 기능 및 설명
 - player 생성, 수정, 조회 및 DB에 정보 저장
@@ -29,7 +29,7 @@
 
 <hr>
 
-# 스프링 MVC를 활용한 미니 프로젝트 3
+# 스프링 MVC를 활용한 미니 프로젝트
 
 > 기능 및 설명
 - 쿠키런 킹덤 커뮤니티
@@ -38,9 +38,9 @@
 - 쿠키 등급별로 분류
 
 > 게임 실행 화면
-<img src="https://pbs.twimg.com/media/E1phKo0VoAATB27?format=jpg&name=large">
 <img src="https://pbs.twimg.com/media/E1phKo3VcAAzkL1?format=jpg&name=large">
 <img src="https://pbs.twimg.com/media/E1phKo1UYAQqtIH?format=jpg&name=large">
+<img src="https://pbs.twimg.com/media/E1wtmk8UcAALj0D?format=jpg&name=large">
 
 ## 링크 Links
 - Repository: https://github.com/phj723/playdata
